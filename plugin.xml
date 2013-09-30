@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.felixtioh.phonegap.plugins"
+      version="0.1.0">
+    <name>CacheCleaner</name>
+    <description>Cache Cleaner Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,cache</keywords>
+
+    <js-module src="www/cache_cleaner.js" name="CacheCleaner">
+        <clobbers target="window.cache_cleaner" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="CacheCleaner">
+                <param name="android-package" value="org.felixtioh.phonegap.plugins.CacheCleaner"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/CacheCleaner.java" target-dir="src/org/felixtioh/phonegap/plugins" />      
+     </platform>          
+</plugin>
