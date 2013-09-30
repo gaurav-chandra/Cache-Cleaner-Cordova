@@ -1,10 +1,10 @@
-CalendarPlugin
-==============
+CacheCleaner plugin for phonegap 3
+==================================
 
-Sample PhoneGap plugin to access and add entries to the native calendar on Android. 
+PhoneGap 3 plugin to clear cache on Android. 
 
 Install
 ========
 Assuming the PhoneGap CLI is installed, from the command line run:
 
-phonegap local plugin add https://github.com/hollyschinsky/CalendarPlugin
+phonegap local plugin add https://github.com/sagittaros/CacheCleaner.git
