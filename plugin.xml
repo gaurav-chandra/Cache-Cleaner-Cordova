@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-           id="org.felixtioh.phonegap.plugins"
+           id="org.felixtioh.phonegap.plugins.cachecleaner"
       version="0.1.0">
     <name>CacheCleaner</name>
     <description>Cache Cleaner Plugin</description>
@@ -16,10 +16,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="CacheCleaner">
-                <param name="android-package" value="org.felixtioh.phonegap.plugins.CacheCleaner"/>
+                <param name="android-package" value="org.felixtioh.phonegap.plugins.cachecleaner.CacheCleaner"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/CacheCleaner.java" target-dir="src/org/felixtioh/phonegap/plugins" />      
+        <source-file src="src/android/CacheCleaner.java" target-dir="src/org/felixtioh/phonegap/plugins/cachecleaner" />      
      </platform>          
 </plugin>

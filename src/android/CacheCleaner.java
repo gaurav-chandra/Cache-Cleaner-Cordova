@@ -1,4 +1,4 @@
-package org.felixtioh.phonegap.plugins;
+package org.felixtioh.phonegap.plugins.cachecleaner;
  
 import java.io.File;
  
