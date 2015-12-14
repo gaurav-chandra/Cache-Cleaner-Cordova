@@ -15,10 +15,7 @@ After that, paste this in your config.xml:
 <param name="android-package" value="org.felixtioh.phonegap.plugins.cachecleaner.CacheCleaner"/>
 </feature>
 ```
-Also include cache_cleaner.js in your index.html:
-```
- <script type="text/javascript" src="js/cache_cleaner.js"></script>
-```
+No need to add any js file. It is added automatically.
 
 You can clean you cache by using:
 ```
